@@ -6,6 +6,5 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(),
     tailwindcss(),],
-  
-  base: './Consulting', // Ensures correct asset paths for GitHub Pages
+  base: './consulting-website', // Ensures correct asset paths for GitHub Pages
 })
